@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form_Events</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form-header">
+                <h1>Somewhere</h1>
+            </div>
+
+            <div class="form-input">
+                <form action="" method="get" id="form" >
+                
+                    <label for="username">Username <i id="usericon" class="fa-solid fa-circle-check d-none"></i>
+                         <i id="userex" class="fa-solid fa-circle-exclamation d-none"></i>
+                         <span id="spanuser" class="d-none ">Username cannot be blank</span></label>
+                    <input type="text" name="username" id="username"> 
+                    <label for="email">Email <i id="emailicon" class="fa-solid fa-circle-check d-none"></i>
+                        <i id="emailex" class="fa-solid fa-circle-exclamation d-none"></i>
+                        <span id="spanemail" class="d-none">Email cannot be blank</span></label>
+                    <input type="email" name="email" id="email">
+                    <label for="password">Paswword <i id="passwordicon" class="fa-solid fa-circle-check d-none"></i>
+                        <i id="passwordex" class="fa-solid fa-circle-exclamation d-none"></i>
+                        <span id="spanpassword" class="d-none">Password cannot be blank</span></label>
+                    <input type="password" name="password" id="password">
+                    <label for="submit-password">Submit-pasword <i id="subpasswordicon" class="fa-solid fa-circle-check d-none"></i>
+                        <i id="subpasswordex" class="fa-solid fa-circle-exclamation d-none"></i>
+                        <span id="spansubpassword" class="d-none">Password cannot be blank</span></label>
+                    <input type="password" name="submit-password" id="submit-password">
+                    
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JS/script.js"></script>
+</html>
